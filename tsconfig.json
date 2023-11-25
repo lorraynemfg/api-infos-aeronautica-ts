@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    /* Language and Environment */
+    "target": "es2016",                                 
+    "typeRoots":["node_modules/@types"],
+    /* Modules */
+    "module": "commonjs",   
+    "types": ["node", "express"],
+                
+    // "rootDir": "./",                                 
+    "moduleResolution": "node",
+    "baseUrl": "./src",
+    "paths": {
+      "*": ["types/*"]
+    },                                                   
+    "outDir": "./dist",
+    "esModuleInterop": true,
+
+    // "preserveSymlinks": true,                         
+    "forceConsistentCasingInFileNames": true,
+
+    /* Type Checking */
+    "strict": true,                                     
+    
+    /* Completeness */
+    "skipLibCheck": true                                
+  }
+}
